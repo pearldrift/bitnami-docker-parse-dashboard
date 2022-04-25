@@ -13,7 +13,7 @@ Trademarks: This software listing is packaged by Bitnami. The respective tradema
 ### Docker Compose
 
 ```console
-$ curl -sSL https://raw.githubusercontent.com/bitnami/bitnami-docker-parse-dashboard/master/docker-compose.yml > docker-compose.yml
+$ curl -sSL https://raw.githubusercontent.com/pearldrift/bitnami-docker-parse-dashboard/master/docker-compose.yml > docker-compose.yml
 $ docker-compose up -d
 ```
 
@@ -101,7 +101,7 @@ To avoid inadvertent removal of these volumes you can [mount host directories as
 
 #### Mount host directories as data volumes with Docker Compose
 
-This requires a minor change to the [`docker-compose.yml`](https://github.com/bitnami/bitnami-docker-parse-dashboard/blob/master/docker-compose.yml) file present in this repository:
+This requires a minor change to the [`docker-compose.yml`](https://github.com/pearldrift/bitnami-docker-parse-dashboard/blob/master/docker-compose.yml) file present in this repository:
 
 ```yaml
 services:
